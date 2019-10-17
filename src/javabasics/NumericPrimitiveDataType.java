@@ -4,10 +4,11 @@ public class NumericPrimitiveDataType {
 
     public static void main(String[] args) {
         //boolean,string,int,long,float,decimal,char
-        long longnum = 12345678123L; //assume as interger and give compilation error without L.
+        //need to put L if not will assume as interger and give compilation error without L.
+        long longnum = 12345678123L;
         // small L not recommended
 
-        long max = 32_123_456_789L;
+        long max = 32_123_456_789L; //for readable purpose can use underscore
         long n = 2_300;
 
         // octal (0-7)
